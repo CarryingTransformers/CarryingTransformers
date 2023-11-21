@@ -7,4 +7,4 @@ The folders contain:
 3. **Zephyr 7B** Zephyr 7B data. Attention maps of 8 most relevant heads and the residual stream for the first five generated outputs.
 4. **Decoder-only:** Includes the data and model used for the generative models for integer addition. The code to generate these is also given, as well as a Jupyter notebook to create the figures in the manuscript.
 5. **Encoder-only:** Includes the data and model used for the encoder-only models for integer addition. The code to generate these is also given, as well as a two Jupyter notebooks (one for the learning dynamics and the other for the PCA and attention patterns etc.) to create the figures in the manuscript.
-6. **Length generalisation:** Study of generalisation from 3 to 6 digit addition using the encoder only models by padding the input. We consider both priming and no priming. 
+6. **Length generalisation:** Study of generalisation from 3 to 6 digit addition using the encoder only models by padding the input. We consider priming, no priming and finetuning. 
